@@ -51,7 +51,7 @@ public class AuthService {
             userRepository.save(user);
 
             log.info("OTP generated and saved for mobile: {}", mobile);
-            return ResponseEntity.ok("OTP sent: " + otp); // Replace with SMS gateway in prod
+            return ResponseEntity.ok("OTP sent: " + otp); 
 
         } catch (Exception ex) {
             log.error("Error sending OTP to mobile: {}", mobile, ex);
