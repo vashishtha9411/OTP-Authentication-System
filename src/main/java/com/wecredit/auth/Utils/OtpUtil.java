@@ -13,9 +13,9 @@ public class OtpUtil {
 
     public String generateOtp() {
         try {
-            int otp = 100000 + random.nextInt(900000); // 6-digit OTP
+            int otp = 100000 + random.nextInt(900000); 
             String otpStr = String.valueOf(otp);
-            log.info("Generated OTP: {}", otpStr); // Optional: remove in production
+            log.info("Generated OTP: {}", otpStr);
             return otpStr;
         } catch (Exception e) {
             log.error("Error while generating OTP", e);
