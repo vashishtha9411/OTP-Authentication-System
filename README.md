@@ -1,4 +1,4 @@
-**WeCredit OTP Authentication API**
+** OTP Authentication API**
 
 This project implements mobile number and OTP based authentication with JWT security using Spring Boot. It supports user registration, OTP generation and verification, JWT token issuance and validation, device fingerprint checks, and secure APIs. The project can run locally or inside a Docker container.
 
